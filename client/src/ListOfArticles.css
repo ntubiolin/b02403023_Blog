@@ -1,0 +1,20 @@
+.list-of-articles {
+  height:25vh;
+  background-color: brown;
+}
+.card-img-top {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+}
+.card{
+  width: 18rem;
+  margin: auto;
+}
+.carousel-item {
+  width: 100%;
+  
+}
+.carousel-inner{
+  margin: 0 auto;
+}

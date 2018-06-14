@@ -1,0 +1,24 @@
+{
+  "name": "chatroom",
+  "version": "1.0.0",
+  "scripts": {
+    "client": "cd client && npm start",
+    "server": "nodemon server.js",
+    "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\"",
+    "client-install": "cd client && npm install",
+    "server-install": "npm install"
+  },
+  "dependencies": {
+    "@material-ui/core": "^1.0.0",
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.2",
+    "moment": "^2.22.2",
+    "mongodb": "^2.2.35",
+    "mongoose": "^5.1.5",
+    "socket.io": "^2.1.0"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.0"
+  }
+}
